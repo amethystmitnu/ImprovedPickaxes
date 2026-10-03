@@ -1,5 +1,5 @@
 {
-    "Group": "HytaleModding",
+    "Group": "Ame",
     "Name": "improvedpickaxes",
     "Version": "0.1.0",
     "Description": "Tiered bonus ore chance based on pickaxe tier",
@@ -8,7 +8,7 @@
             "Name": "Amethyst Mitnu"
         }
     ],
-    "Website": "https://your-plugin-website.com",
+    "Website": "https://github.com/amethystmitnu/ImprovedPickaxes.git",
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "Dependencies": {

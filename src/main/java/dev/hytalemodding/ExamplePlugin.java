@@ -22,7 +22,7 @@ public class ExamplePlugin extends JavaPlugin {
     @Override
     protected void setup() {
         config.save();
-        this.getCommandRegistry().registerCommand(new ExampleCommand("example", "An example command"));
+        this.getEntityStoreRegistry().registerSystem(new OreBonusSystem());
         if (getConfig().get().isEnabledWelcomeMessage()) {
             this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, ExampleEvent::onPlayerReady);
         }

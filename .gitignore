@@ -9,4 +9,4 @@ run/
 .classpath
 .project
 .settings/
-.vscode
+.vscode*.bak
